@@ -1,0 +1,38 @@
+/* Body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Container Class*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*Login Box Class*/
+.login-box {
+  /*Alignment of box*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  /*Sets size of box*/
+  width: 500px;
+  height: 400px;
+  max-width: 80%;
+  min-width: 800px;
+
+  /*Creates rounded edges*/
+  border-radius: 5px;
+
+  /*Creates box shadows*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
