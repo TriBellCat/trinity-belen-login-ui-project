@@ -3,6 +3,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  background-image: linear-gradient(to bottom right, #015c93, #2d83b6, #53a6d8, #89ccf7, #bee6ff);
 }
 
 /*Container Class*/
@@ -25,9 +27,12 @@ body {
 
   /*Creates rounded edges*/
   border-radius: 5px;
+  
+  /*Sets box's background color to white so that it's not gradient*/
+  background-color: white;
 
   /*Creates box shadows*/
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 /*Sign In Header Text*/
@@ -47,9 +52,11 @@ body {
     justify-content: center;
     align-items: center;
 
+    font-size: medium;
+
     /*Makes boxes into underlines instead*/
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #c4c4c4;
 }
 
 /*Login Button*/
@@ -62,15 +69,15 @@ body {
     color: white;
 
     margin: 20px auto;
-    padding: 14px 80px;
+    padding: 14px 18%;
     border-radius: 24px;
 }
 
 .login-box button:hover {
-    transition: .5s;
+    transition: .7s;
     cursor: pointer;
-    background-color:rgb(185, 248, 160);
-    color:#c06767;
+    background-color: #bee6ff;
+    color:#015c93;
 }
 
 
