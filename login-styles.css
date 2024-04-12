@@ -15,12 +15,7 @@ body {
 
 /*Login Box Class*/
 .login-box {
-  /*Alignment of box*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
+  text-align: center;
 
   /*Sets size of box*/
   width: 500px;
@@ -33,6 +28,49 @@ body {
 
   /*Creates box shadows*/
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Sign In Header Text*/
+.login-box h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+/*Input Boxes*/
+.login-box input {
+    /*Size of input box*/
+    width: 40%;
+    height: 70px;
+
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Makes boxes into underlines instead*/
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+/*Login Button*/
+.login-box button {
+    display: block;
+    text-align: center;
+
+    border: none;
+    background-color: #1390de;
+    color: white;
+
+    margin: 20px auto;
+    padding: 14px 80px;
+    border-radius: 24px;
+}
+
+.login-box button:hover {
+    transition: .5s;
+    cursor: pointer;
+    background-color:rgb(185, 248, 160);
+    color:#c06767;
 }
 
 
